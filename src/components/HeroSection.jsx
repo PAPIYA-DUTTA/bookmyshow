@@ -2,6 +2,9 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import image1 from "../assets/banner.jpg"
+import image2 from "../assets/godzilla.avif"
+import image3 from "../assets/web.avif"
 
 const HeroSection = () => {
   const settings = {
@@ -18,13 +21,13 @@ const HeroSection = () => {
     <Slider {...settings}>
         
       <div>
-        <img className=" w-full h-full" src="/src/assets/banner.jpg" alt="Image 1" />
+        <img className=" w-full h-full" src={image1} alt="Image 1" />
       </div>
       <div>
-        <img className="w-full h-full" src="/src/assets/godzilla.avif" alt="Image 2" />
+        <img className="w-full h-full" src={image2} alt="Image 2" />
       </div>
       <div>
-        <img className='w-full h-full' src="/src/assets/web.avif" alt="Image 3" />
+        <img className='w-full h-full' src={image3} alt="Image 3" />
       </div>
       
     </Slider>
