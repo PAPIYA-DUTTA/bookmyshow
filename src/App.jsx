@@ -1,20 +1,18 @@
-import { useState } from 'react'
-
-import './App.css'
+import React from 'react'
 import Navbar from './components/Navbar'
 import Navbar1 from './components/Navbar1'
 import HeroSection from './components/HeroSection'
 import Footer from './components/Footer'
 
-function App() {
- 
+const App = () => {
   return (
-    <>
-       <Navbar/>
-       <Navbar1/>
-       <HeroSection/>
-       <Footer/>
-    </>
+    <div>
+      <Navbar/>
+      <Navbar1/>
+      <HeroSection/>
+      
+      <Footer/>
+    </div>
   )
 }
 

@@ -18,13 +18,13 @@ const HeroSection = () => {
     <Slider {...settings}>
         
       <div>
-        <img className=" w-full" src="/src/assets/IMG1.jpeg" alt="Image 1" />
+        <img className=" w-full h-full" src="/src/assets/banner.jpg" alt="Image 1" />
       </div>
       <div>
-        <img className="w-full" src="/src/assets/IMG2.png" alt="Image 2" />
+        <img className="w-full h-full" src="/src/assets/godzilla.avif" alt="Image 2" />
       </div>
       <div>
-        <img className='w-full' src="/src/assets/IMG3.jpeg" alt="Image 3" />
+        <img className='w-full h-full' src="/src/assets/web.avif" alt="Image 3" />
       </div>
       
     </Slider>
