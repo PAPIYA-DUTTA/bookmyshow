@@ -1,0 +1,25 @@
+.movie-sec{
+  text-align: center;
+  margin-top:100px;
+}
+.movie-sec h1{
+  font-size:30px;
+  font-weight: 800;
+}
+
+.movie-gallery img{
+  max-width: 100%;
+  height:400px;
+  padding:20px;
+}
+.movie-gallery h4{
+  font-weight: 700;
+}
+
+.movie-gallery{
+
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
